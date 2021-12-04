@@ -1,7 +1,7 @@
 # nuxt-bookstore-web
 I created this repository for learning nuxt.js framework. My main purpose is learn that how can i develop awesome projects with nuxt.js framework.
 
-Demo Link: i will add here after deploy
+Demo Link: https://nuxt-bookstore-web-6yik1qf7r-berkekurnaz.vercel.app/
 
 ## My Roadmap
 - [x] Dark and Light Theme
