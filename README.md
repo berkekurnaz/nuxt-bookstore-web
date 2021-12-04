@@ -10,8 +10,8 @@ Demo Link: i will add here after deploy
 - [ ] Deploy Nuxt.js Project
 
 ## Screenshots
-![screenshot1](https://github.com/berkekurnaz/nuxt-bookstore-web/blob/master/assets/screenshot1.png?raw=true)
-![screenshot2](https://github.com/berkekurnaz/nuxt-bookstore-web/blob/master/assets/screenshot2.png?raw=true)
+![screenshot1](https://github.com/berkekurnaz/nuxt-bookstore-web/blob/master/static/screenshot1.png?raw=true)
+![screenshot2](https://github.com/berkekurnaz/nuxt-bookstore-web/blob/master/static/screenshot2.png?raw=true)
 
 ## Why I Learn Nuxt.js ?
 I have been developing projects with vue.js for a long time. And I needed ssr for some projects. I can also develop some projects much faster with nuxt.js framework. For these reasons, I am learning.
