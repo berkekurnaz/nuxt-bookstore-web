@@ -17,7 +17,8 @@ Demo Link: i will add here after deploy
 I have been developing projects with vue.js for a long time. And I needed ssr for some projects. I can also develop some projects much faster with nuxt.js framework. For these reasons, I am learning.
 
 ## Learning Resources
-kaynakları buraya ekle
+Multi Language : https://i18n.nuxtjs.org/
+Theme Support :  https://nuxtjs.org/tutorials/going-dark-with-nuxtjs-color-mode/
 
 ## Contact me
 contact@berkekurnaz.com
