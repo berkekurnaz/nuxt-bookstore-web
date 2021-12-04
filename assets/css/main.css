@@ -1,0 +1,21 @@
+:root {
+      --color: #000000;
+      --color-primary: #158876;
+      --color-secondary: #0e2233;
+      --bg: #ffffff;
+      --bginput: #ecf0f1;
+    }
+    
+    .dark-mode {
+      --color: #ebf4f1;
+      --color-primary: #41b38a;
+      --color-secondary: #fdf9f3;
+      --bg: #091a28;
+      --bginput: #0d2538;
+    }
+
+body{
+      font-family: 'Roboto';
+      background-color: var(--bg);
+      transition: .3s;
+}
