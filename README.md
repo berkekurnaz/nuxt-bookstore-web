@@ -1,7 +1,7 @@
 # nuxt-bookstore-web
 I created this repository for learning nuxt.js framework. My main purpose is learn that how can i develop awesome projects with nuxt.js framework.
 
-Demo Link: https://nuxt-bookstore-web-6yik1qf7r-berkekurnaz.vercel.app/
+Demo Link: https://nuxt-bookstore-web.vercel.app/
 
 ## My Roadmap
 - [x] Dark and Light Theme
@@ -17,7 +17,7 @@ Demo Link: https://nuxt-bookstore-web-6yik1qf7r-berkekurnaz.vercel.app/
 I have been developing projects with vue.js for a long time. And I needed ssr for some projects. I can also develop some projects much faster with nuxt.js framework. For these reasons, I am learning.
 
 ## Learning Resources
-Multi Language : https://i18n.nuxtjs.org/
+Multi Language : https://i18n.nuxtjs.org/ <br />
 Theme Support :  https://nuxtjs.org/tutorials/going-dark-with-nuxtjs-color-mode/
 
 ## Contact me
