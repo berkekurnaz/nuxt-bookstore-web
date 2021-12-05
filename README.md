@@ -6,8 +6,11 @@ Demo Link: https://nuxt-bookstore-web.vercel.app/
 ## My Roadmap
 - [x] Dark and Light Theme
 - [x] Multi Languages Support
-- [ ] Vuex  
-- [ ] Deploy Nuxt.js Project
+- [x] Vuex  
+- [x] Deploy Nuxt.js Project
+- [ ] Book Rating System
+- [ ] Book Search Page
+- [ ] Design Categories Page
 
 ## Screenshots
 ![screenshot1](https://github.com/berkekurnaz/nuxt-bookstore-web/blob/master/static/screenshot1.png?raw=true)

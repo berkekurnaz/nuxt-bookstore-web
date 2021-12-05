@@ -3,23 +3,8 @@
     <h3>{{ $t("books.title") }}</h3>
     <span class="viewall">{{ $t("books.view") }}</span>
     <div class="row">
-      <div class="col-md-2">
-        <Book />
-      </div>
-      <div class="col-md-2">
-        <Book />
-      </div>
-      <div class="col-md-2">
-        <Book />
-      </div>
-      <div class="col-md-2">
-        <Book />
-      </div>
-      <div class="col-md-2">
-        <Book />
-      </div>
-      <div class="col-md-2">
-        <Book />
+      <div class="col-md-2" v-for="book in books" :key="book.title">
+        <Book :book="book" />
       </div>
     </div>
   </div>
@@ -27,11 +12,16 @@
 
 <script>
 import Book from "@/components/Book";
-
+import { books } from '@/data/books'
 export default {
   components: {
     Book,
   },
+  computed: {
+    books() {
+      return this.$store.state.books.booksList
+    }
+  }
 };
 </script>
 

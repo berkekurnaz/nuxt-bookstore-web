@@ -1,8 +1,8 @@
 <template>
       <div class="book">
-            <img src="https://i2-prod.walesonline.co.uk/incoming/article6890072.ece/ALTERNATES/s615b/hp1.jpg" width="100%" alt="">
-            <h4>Harry Potter</h4>
-            <h5>J.K Rowling</h5>
+            <img :src="book.image" width="100%" alt="">
+            <h4>{{ book.title }}</h4>
+            <h5>{{ book.author }}</h5>
             <div class="rates">
                   <span>icon</span>
             </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default{
-      
+      props: ['book']
 }
 </script>
 

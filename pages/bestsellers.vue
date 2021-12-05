@@ -1,13 +1,18 @@
 <template>
       <div>
-            <h1>Bestsellers</h1>
-            <hr>
-            <p>Bestsellers Content</p>
+            <br>
+            <BooksList />
+            <BooksList />
       </div>
 </template>
 
 <script>
+import BooksList from '@/components/BooksList'
+
 export default {
-      layout: 'mainLayout'
+      layout: 'mainLayout',
+      components: {
+            BooksList
+      }
 }
 </script>
