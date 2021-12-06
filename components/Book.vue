@@ -3,8 +3,13 @@
             <img :src="book.image" width="100%" alt="">
             <h4>{{ book.title }}</h4>
             <h5>{{ book.author }}</h5>
-            <div class="rates">
-                  <span>icon</span>
+            <div class="rates row" style="margin-left:0">
+                  <div v-for="item in book.rating" :key="item">
+                        <img src="heart_pressed.png" width="20px" >
+                  </div>
+                  <div v-for="item in (5-book.rating)" :key="item">
+                        <img src="heart.png" width="20px" >
+                  </div>
             </div>
       </div>
 </template>
@@ -33,5 +38,8 @@ export default{
             font-weight: 400;
             font-size: 15px;
             color: #c2c2c2;
+      }
+      .rates img{
+            margin-left: 10px;
       }
 </style>
